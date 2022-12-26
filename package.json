@@ -24,6 +24,6 @@
     "jsonwebtoken": "^9.0.0",
     "mysql2": "^2.3.3",
     "sequelize": "^6.28.0",
-    "toposort-class": "^1.0.1"
+    "toposort-className": "^1.0.1"
   }
 }

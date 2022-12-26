@@ -52,7 +52,7 @@ const Dashboard = () => {
       }
     });
     console.log(response.data);
-    setIngfo(`Cookies aman, auto refresh_token dalam 15 detik --- Token: ${token}`)
+    setIngfo(`Cookies aman, auto refresh_token dalam 15 detik --- Halo ${name}, ini adalah function untuk testing cookies`)
   }
 
   return (
@@ -60,13 +60,12 @@ const Dashboard = () => {
     <div>
         <h1 className="container mt-5">Selamat datang, {name}</h1>
         <button onClick={getUsers} className='button is-info ml-5 mt-5'>Cek Cookies</button>
-        <p className="has-text-centered mt-5 ml-5 mr-5">
-        <article class="message is-link">
-        <div class="message-body">
+        <article className="message is-link mt-5 ml-5 mr-5">
+        <div className="message-body">
         {ingfo}
         </div>
       </article>
-      </p></div>
+      </div>
   )
 }
 

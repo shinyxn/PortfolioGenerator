@@ -39,8 +39,8 @@ const Register = () => {
         <div className="columns is-centered">
             <div className="column is-4-desktop">
                 <form onSubmit={ Register } className='box'>
-                <article class="message is-link">
-                <div class="message-body">
+                <article className="message is-link">
+                <div className="message-body">
                     <p>Silahkan register dahulu coy.</p>Ngetes component notif <strong>BulmaCSS</strong> keren juga
                 </div>
                 </article>
