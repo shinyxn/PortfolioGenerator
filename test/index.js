@@ -11,4 +11,4 @@ try {
   console.log(error);
 }
 
-app.listen(5000, () => console.log("Server running at port 5000"));
+app.listen(5000, () => console.log("Server running at port 5000\nImport table dari sequelize udah selesai, close saja"));
